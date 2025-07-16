@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Husandeep Kaur | AI/ML Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- ===== Navbar ===== -->
+  <header class="bg-indigo-600 text-white p-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Husandeep Kaur</h1>
+      <nav>
+        <a href="#home" class="px-4 hover:underline">Home</a>
+        <a href="#about" class="px-4 hover:underline">About</a>
+        <a href="#projects" class="px-4 hover:underline">Projects</a>
+        <a href="#certificates" class="px-4 hover:underline">Certificates</a>
+        <a href="#contact" class="px-4 hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Home ===== -->
+  <section id="home" class="container mx-auto text-center py-20">
+    <img src="images/your-photo.jpg" alt="Husandeep Kaur" class="w-32 h-32 rounded-full mx-auto mb-4">
+    <h2 class="text-4xl font-bold mb-2">Hi, I'm Husandeep Kaur</h2>
+    <p class="text-lg text-gray-600 mb-4">BTech CSE | AI/ML Enthusiast</p>
+    <p class="italic mb-6">"Turning ideas into intelligent solutions."</p>
+    <a href="your-resume.pdf" download class="inline-block bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700 transition">Download Resume</a>
+  </section>
+
+  <!-- ===== About Me ===== -->
+  <section id="about" class="bg-gray-100 py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-6">About Me</h3>
+      <p class="mb-4">I’m a BTech Computer Science Engineering student with a specialization in AI/ML. I love solving real-world problems with technology and am passionate about building innovative projects.</p>
+      <h4 class="text-xl font-semibold mb-2">Skills:</h4>
+      <ul class="list-disc ml-6 mb-4">
+        <li>Python</li>
+        <li>C </li>
+        <li>Web Development (HTML, CSS, JavaScript, Flask)</li>
+        <li>Tailwind CSS</li>
+      </ul>
+      <h4 class="text-xl font-semibold mb-2">Education:</h4>
+      <ul class="list-disc ml-6">
+        <li>BTech CSE (AI/ML Specialization) - Lovely Professional University, Jalandhar</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="container mx-auto py-20 px-6">
+    <h3 class="text-3xl font-bold mb-6">Projects</h3>
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Project 1 -->
+      <div class="border rounded-lg p-4 shadow hover:shadow-lg transition">
+        <img src="/Portfolio.png" alt="Project 1" class="w-20 h-20 object-cover mb-4 rounded mx-auto">
+        <h4 class="text-xl font-bold mb-2">Portfolio Website</h4>
+        <p>Fully responsive personal website using HTML and Tailwind CSS.</p>
+      </div>
+      <!-- Project 2 -->
+      <div class="border rounded-lg p-4 shadow hover:shadow-lg transition">
+        <img src="/MOOC.jpeg" alt="Project 2"  class="w-20 h-20 object-cover mb-4 rounded mx-auto">
+        <h4 class="text-xl font-bold mb-2"> MOOC Registration </h4>
+        <p>MOOC Registration using HTML, CSS, JavaScript.</p>
+      </div>
+      <!-- Project 3 -->
+      <div class="border rounded-lg p-4 shadow hover:shadow-lg transition">
+        <img src="/chatbot.png" alt="Project 3" class="w-20 h-20 object-cover mb-4 rounded mx-auto">
+        <h4 class="text-xl font-bold mb-2">College helpdesk Chatbot</h4>
+        <p>Built a conversational chatbot using Python, HTML, CSS, Flask.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Certificates ===== -->
+  <section id="certificates" class="bg-gray-100 py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-6">Certificates</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Certificate 1 -->
+        <div class="border rounded-lg p-4 shadow hover:shadow-lg transition text-center">
+          <img src="/time management certificate.jpeg" alt="Certificate 1" class="mb-4 rounded">
+          <h4 class="font-semibold">Time Management</h4>
+          <p class="text-sm text-gray-600">Master Union - 2024</p>
+        </div>
+        <!-- Certificate 2 -->
+        <div class="border rounded-lg p-4 shadow hover:shadow-lg transition text-center">
+          <img src="/hackathon certificate.jpg" alt="Certificate 2" class="mb-4 rounded">
+          <h4 class="font-semibold">Hackathon</h4>
+          <p class="text-sm text-gray-600"> Drive Dev - 2024</p>
+        </div>
+        <!-- Certificate 3 -->
+        <div class="border rounded-lg p-4 shadow hover:shadow-lg transition text-center">
+          <img src="/certificate python.jpg" alt="Certificate 3" class="mb-4 rounded">
+          <h4 class="font-semibold">Python</h4>
+          <p class="text-sm text-gray-600">Skillera - 2025</p>
+        </div>
+        <!-- Certificate 4 -->
+        <div class="border rounded-lg p-4 shadow hover:shadow-lg transition text-center">
+          <img src="/ai certificate.png" alt="Certificate 4" class="mb-4 rounded">
+          <h4 class="font-semibold">AI/ML</h4>
+          <p class="text-sm text-gray-600">Skillera - 2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="container mx-auto py-20 px-6">
+    <h3 class="text-3xl font-bold mb-6">Contact</h3>
+    <form class="max-w-lg mx-auto">
+      <div class="mb-4">
+        <label class="block mb-2 font-semibold">Name</label>
+        <input type="text" placeholder="Your Name" class="w-full border rounded px-4 py-2">
+      </div>
+      <div class="mb-4">
+        <label class="block mb-2 font-semibold">Email</label>
+        <input type="email" placeholder="Your Email" class="w-full border rounded px-4 py-2">
+      </div>
+      <div class="mb-4">
+        <label class="block mb-2 font-semibold">Message</label>
+        <textarea placeholder="Your Message" class="w-full border rounded px-4 py-2"></textarea>
+      </div>
+      <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700 transition">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="bg-indigo-600 text-white text-center p-4">
+    &copy; 2025 Husandeep Kaur. All rights reserved.
+  </footer>
+
+</body>
+</html>
